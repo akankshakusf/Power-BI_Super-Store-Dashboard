@@ -43,6 +43,8 @@ Analyze a large dataset to provide key insights by creating a Power BI Dashboard
 
 ## Data Model Blueprint
 
+![alt text](Tabs/image.png)
+
 The relational database warehousing uses the Star Schema layout. The Star Schema is named for its resemblance to a star, with a central Fact table called the Transactional table. This table mainly contains transactional data like Profit, Sales, Cost, Quantity, and Keys. The fact table's primary key is typically a foreign key in each of the dimension tables and uniquely identifies each row of data in the fact table. Surrounding the Fact table are all Dimension tables, which are defined as business entities containing attributes such as Product, Employee, Location, Customer, etc.
 
 ## Visualizations for Research Questions 1
